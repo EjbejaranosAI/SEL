@@ -6,6 +6,8 @@ import seaborn as sns
 import matplotlib as plt
 import glob, os
 
+import colorama
+from colorama import Fore, Back, Style
 
 
 def load_datasets(path_dataset):
@@ -27,7 +29,7 @@ def load_datasets(path_dataset):
             df_big.append(df)
         else:
             print('Error')
-        print("Dataset: ", array[i],"\n", "Shape: ", df.shape, "\n")
+        print(Fore.GREEN + "Dataset: ", array[i],"\n", "Shape: ", df.shape, "\n")
         EDA_dataset(df)        
     return(df_small, df_middle, df_big)
 
