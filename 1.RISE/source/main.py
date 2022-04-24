@@ -15,7 +15,7 @@ from utils.utils import load_datasets, EDA_dataset, correlation
 
 
 #Load datasets
-path_dataset = "./data/"
+path_dataset = "../data/"
 small, middle, big = load_datasets(path_dataset) 
 
 
