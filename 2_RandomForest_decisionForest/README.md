@@ -1,22 +1,19 @@
-Practical Work 2 (PW2, Individual): Combining multiple classifiers
+## Practical Work 2 (PW2, Individual): Combining multiple classifiers
 
-Installation
-
+## Installation
 In order to run the program, first of all we need to install packages.
 
-run the following command: pip install -r requirements.txt
+run the following command:
+`pip install -r requirements.txt`
 
-Usage
-
+## Usage
 you should visit main file to run all algorithms and analyses
 
 
 
+## Procedure
 
-Procedure
-
-1. Implement a Random Forest and a Decision Forest technique
-
+1. Implement a Random Forest and a Decision Forest technique.
 The base-learner for inducing the trees will be the CART method.
 
     a. Both the Random Forest (RF) and the Decision Forest (DF) classifier
